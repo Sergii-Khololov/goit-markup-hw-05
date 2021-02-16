@@ -650,6 +650,7 @@ input[type="radio"].visually-hidden {
 
 .footer-contacts {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-ikon {
@@ -744,7 +745,7 @@ input[type="radio"].visually-hidden {
   border-radius: 4px;
 
   transition: background-color 250ms var(--transition-cubic),
-    color 250ms var(--transition-cubic);
+    box-shadow 250ms var(--transition-cubic);
 }
 
 /*====== Filtr End ======*/
